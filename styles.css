@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+
+body{
+    background-color: beige;
+}
+
+.rossImg{
+    width: 100%;
+    height:auto;
+}
+
+
+h2{
+    color: #af0a12;
+}
+
+
+.container{
+  max-width: 500px;
+  margin: 0 auto;
+  background: white;
+  padding:20px;
+}
+
+.ross-img{
+  width:100%;
+  height:auto;
+}
+
+h1 { font-size: 6vw;}
+
+p{ font-size: 5vw;}
+
+h1{
+  color: #af0a12
+}
+
+Input{
+  border-color: #af0a12;
+}
