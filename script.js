@@ -4,6 +4,7 @@ let button = document.querySelector("button");
 let pic = document.querySelector(".rossImg");
 let heading = document.querySelector(".title")
 let questions = document.querySelector(".questions")
+let result = document.querySelector(".result")
 
 
 
@@ -17,31 +18,29 @@ console.log(answer2);
   
 if(answer1 ==="ew gross" && answer2=== "shopping duh"){
       questions.style.display = "none";
- pic.src= "https://uploads.wornontv.net/2014/09/emmas-grey-floral-front-sweatshirt.jpg"
- heading.innerHTML= "You are: Emma!";
+ pic.src= "images/emma.webp";
+result.style.display= "block";
+result.innerHTML= "You are: Emma!";
+
   
 
 }
   
   if(answer1 ==="yes" && answer2=== "shopping duh"){
+    questions.style.display = "none"
  pic.src=
-   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq7tVS272PfKTvX5dx-EWS9DscR5Uyid1uGg&s"
-  heading.innerHTML= "You are: Zuri!";
-  button.style.display = "none";
-  input1.style.display = "none";
-  input2.style.display = "none";
-  questions.style.display = "none"
-  
+   "images/zuri.webp";
+  result.innerHTML= "You are: Zuri!";
+  result.style.display= "block";
   }
   
   if(answer1 ==="ew gross" && answer2=== "study"){
+    questions.style.display = "none"
  pic.src=
-   "https://i.pinimg.com/474x/be/06/59/be06597e33229c9c39f207f8298f7817.jpg"
-  heading.innerHTML= "You are: Luke!";
-  button.style.display = "none";
-  input1.style.display = "none";
-  input2.style.display = "none";
-  questions.style.display = "none"
+   "images/luke.webp";
+  result.innerHTML= "You are: Luke!";
+  result.style.display= "block";
+  
   
   }
   

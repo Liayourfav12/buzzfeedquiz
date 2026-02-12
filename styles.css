@@ -11,6 +11,10 @@ body{
     height:auto;
 }
 
+.result {
+  display: none;
+}
+
 
 h2{
     color: #af0a12;
