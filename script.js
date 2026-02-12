@@ -20,7 +20,6 @@ if(answer1 ==="ew gross" && answer2=== "shopping duh"){
  pic.src= "https://uploads.wornontv.net/2014/09/emmas-grey-floral-front-sweatshirt.jpg"
  heading.innerHTML= "You are: Emma!";
   
-  
 
 }
   
